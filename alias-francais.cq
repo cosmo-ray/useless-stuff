@@ -1,0 +1,16 @@
+#!/bin/bash
+
+export PS1='[\[\033[34m\]Vive \[\033[37m\]la \[\033[31m\]france ! \[\033[37m\]@\h \u \w]\$ '
+
+echo bonjour !
+
+alias requincable=wireshark
+alias cr=cd # changement de repertoire
+alias chat=cat
+alias toilechat=netcat
+alias tc=nc
+alias faire=make
+alias cq=sh
+alias nccq=bash #nee contre coquille
+alias poison=fish
+alias conversationpipi=weechat
