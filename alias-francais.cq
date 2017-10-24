@@ -1,6 +1,8 @@
 #!/bin/bash
 
-export PS1='[\[\033[34m\]Vive \[\033[37m\]la \[\033[31m\]france ! \[\033[37m\]@\h \u \w]\$ '
+export PS1='[\[\033[34m\]Vive \[\033[37m\]la \[\033[31m\]france ! \[\033[0m\]@\h \u \w]\$ '
+
+tcc -run flags.c fra
 
 echo bonjour !
 
